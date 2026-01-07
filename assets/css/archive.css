@@ -1,0 +1,68 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+:root {
+    --bg: #000000;
+    --text: #ffffff;
+    --muted: #b5b5b5;
+    --line: rgba(255, 255, 255, 0.15);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: "Pretendard", -apple-system, BlinkMacSystemFont,
+        "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    line-height: 1.75;
+    word-break: keep-all;
+}
+
+.archive {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 5rem;
+}
+
+.big-title {
+    font-size: clamp(1.9rem, 4.5vw, 2.6rem);
+    font-weight: 800;
+    margin: 4rem 0 1.5rem;
+    letter-spacing: -0.01em;
+}
+
+.section {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--line);
+}
+
+.film-meta {
+    margin: 1.5rem 0 2.5rem;
+    font-size: 0.95rem;
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+.warning {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 1rem 1.2rem;
+    margin: 2.5rem 0;
+    font-size: 0.9rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 2.5rem 0;
+}
+
+footer {
+    margin-top: 6rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-align: center;
+}
