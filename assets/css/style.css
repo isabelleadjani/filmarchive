@@ -97,3 +97,14 @@ footer {
     color: var(--muted);
     text-align: center;
 }
+
+.warning a {
+    display: inline-block;
+    max-width: 100%;
+    word-break: break-all;
+    /* 긴 URL 강제 줄바꿈 */
+    overflow-wrap: break-word;
+    /* 최신 브라우저용 */
+    white-space: normal;
+    /* 한 줄 고정 방지 */
+}
