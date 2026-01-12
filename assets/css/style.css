@@ -98,19 +98,16 @@ footer {
     text-align: center;
 }
 
-/* 긴 링크(특히 URL) 모바일 줄바꿈 강제 */
 .warning a,
 .warning a:visited,
 .warning a:active {
     display: block;
     max-width: 100%;
     overflow-wrap: anywhere;
-    /* 제일 강력 */
     word-break: break-word;
     white-space: normal;
 }
 
-/* 혹시 p나 컨테이너가 줄바꿈을 막는 경우까지 같이 방어 */
 .warning,
 .warning p {
     max-width: 100%;
